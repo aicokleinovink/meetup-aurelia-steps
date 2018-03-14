@@ -1,9 +1,10 @@
 import { children, bindable } from 'aurelia-framework';
 import ChartJs from 'chart.js';
+import { ChartData } from '../chart-data/chart-data';
 
 export class Chart {
   @bindable() labels: string[];
-  @children('chart-data') chartData: Array<HTMLElement>;
+  @children('chart-data') chartData: Array<ChartData>;
 
   public chart: ChartJs;
   public canvas: HTMLCanvasElement;
