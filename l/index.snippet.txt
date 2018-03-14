@@ -1,0 +1,2 @@
+PLATFORM.moduleName('./elements/chart/chart'),
+PLATFORM.moduleName('./elements/chart-data/chart-data')
