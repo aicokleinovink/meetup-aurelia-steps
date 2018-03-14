@@ -1,0 +1,1 @@
+PLATFORM.moduleName('./elements/checkbox/checkbox')
